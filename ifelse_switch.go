@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func ifelse_switch() {
-	age := 18 
+	age := 18
 	gender := "male"
 
 	if age > 18 && gender == "male" {
@@ -14,9 +14,27 @@ func ifelse_switch() {
 		fmt.Println("You are just a teenager")
 	}
 
-	// >, >=, <, <=, == 
-	// && -and 
+	// >, >=, <, <=, ==
+	// && -and
 	// || -or
-	// not - ! 
+	// not - !
+
+	isPretty := false
+
+	if !isPretty {
+		fmt.Println("too much good looking!")
+	}
+
+	// switch
+	a := 5
+
+	switch a {
+	case 1:
+		fmt.Println("a is 1")
+	case 5:
+		fmt.Println("a is 5")
+	default:
+		fmt.Println("a is what?")
+	}
 
 }
