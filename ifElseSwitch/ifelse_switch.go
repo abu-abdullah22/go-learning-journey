@@ -38,3 +38,7 @@ func ifelse_switch() {
 	}
 
 }
+
+func main(){
+	ifelse_switch()
+}

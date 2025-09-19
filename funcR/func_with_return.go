@@ -15,3 +15,7 @@ func getNumbers(num1 int, num2 int) (int, int){
 	return sum, prod
 }
 
+func main() {
+	getNumbers(8, 9)
+}
+

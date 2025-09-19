@@ -9,3 +9,7 @@ func fnc(num1 int, num2 int) {
 	fmt.Println(sum) 
 
 }
+
+func main() {
+	fnc(8,10)
+}

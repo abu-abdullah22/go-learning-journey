@@ -2,6 +2,10 @@ package main
 
 import "fmt"
 
+func main(){
+	printVar()
+}
+
 func printVar() {
 	
 	// a:=10 
