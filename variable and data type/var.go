@@ -11,13 +11,20 @@ func printVar() {
 	// a:=10 
 	var a = 10
 
-	// a = 10  - if we want to reassign but it has to be the same type
+	// a = 12  - if we want to reassign but it has to be the same type
 
 	var b int = 20 
 
 	const p = 100 // we can't change value of const
 
 	fmt.Println(a,b,p)
+
+	var (
+		q = 3
+		z = 5
+	)
+
+	fmt.Println(q, z)
 }
 
 /*
