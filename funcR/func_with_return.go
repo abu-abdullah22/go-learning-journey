@@ -2,13 +2,14 @@ package main
 
 import "fmt"
 
-func return_func(num1 int, num2 int) (int, int) {
+// Function that takes two integers as input and returns their sum
+func return_func(num1 int, num2 int) int {
 	sum2 := num1 + num2
-	sum3 := num1 * num2
 
-	return sum2, sum3
+	return sum2
 }
 
+// Function that takes two integers as input and returns their sum and product
 func getNumbers(num1 int, num2 int) (int, int) {
 	sum := num1 + num2
 
@@ -18,6 +19,12 @@ func getNumbers(num1 int, num2 int) (int, int) {
 }
 
 func main() {
-	sum, product := return_func(10, 20)
-	fmt.Printf("The sum and product of 10 and 20 is: %d and %d\n", sum, product)
+	// Calling the getNumbers function and printing the results
+	sum, prod := getNumbers(8, 9)
+	fmt.Println("Sum:", sum)
+	fmt.Println("Product:", prod)
+
+	// Calling the return_func function and printing the result
+	fmt.Println(return_func(10, 20))
+
 }
