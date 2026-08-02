@@ -3,8 +3,5 @@ package main
 import "fmt"
 
 func main() {
-	a := 10 
-	b := 20
-	fmt.Println("Hello World!")
-	fmt.Println(a, b)
-}
+	fmt.Println("Hello World From NeoVim: version 0.2!")
+}  
